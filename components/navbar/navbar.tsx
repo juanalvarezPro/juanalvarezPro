@@ -5,8 +5,8 @@ import ButtonGithub from "../Buttons/ButtonGithub";
 
 const Navbar = () => {
   return (
-    <nav className="fixed z-10 top-6 inset-x-4 h-14 bg-background border dark:border-slate-700/70 max-w-screen-md mx-auto rounded-full">
-      <div className="h-full flex items-center justify-between mx-auto px-3">
+    <nav className="fixed top-0 left-0 z-10 h-16 w-full bg-background">
+      <div className="max-w-screen-md h-full flex items-center justify-between mx-auto px-3">
         <Logo />
 
         {/* Desktop Menu */}
