@@ -27,9 +27,9 @@ const Hero = () => {
           <span className=" text-[hsl(142,84%,88%)]">Tecnología Embebida</span>{" "}
           a la medida
         </h1>
-        <p className="mt-6 text-[17px] md:text-lg text-justify">
+        <p className="mt-6 text-[17px] md:text-lg text-balance text-center">
           <span
-            className="block mb-4 text-2xl text-primary font-light text-center"
+            className="block mb-4 text-2xl text-primary italic font-light text-center"
             style={{ fontFamily: 'Caveat' }}
           >
             ¿Tu software te limita?
