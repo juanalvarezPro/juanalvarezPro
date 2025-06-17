@@ -29,8 +29,8 @@ const Hero = () => {
         </h1>
         <p className="mt-6 text-[17px] md:text-lg text-justify">
           <span
-            className="block mb-4 text-2xl italic text-primary font-light text-center"
-            style={{ fontFamily: "'Caveat', cursive" }}
+            className="block mb-4 text-2xl text-primary font-light text-center"
+            style={{ fontFamily: 'Caveat' }}
           >
             ¿Tu software te limita?
           </span>
