@@ -51,7 +51,6 @@ const Hero = () => {
           <span className="font-semibold text-[hsl(264,84%,88%)]">
             resolver tus desafíos?
           </span>
-          !
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
           <Button size="lg" className="rounded-full text-base" variant={"outline"}>
