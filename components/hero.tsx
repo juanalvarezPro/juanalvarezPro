@@ -35,7 +35,7 @@ const Hero = () => {
             ¿Tu software te limita?
           </span>
           ¡Rompe las 
-          <span className="font-semibold text-primary">barreras tecnológicas!</span>
+          <span className="font-semibold text-primary"> barreras tecnológicas! </span>
           Desarrollo{" "}
           <span className="font-semibold text-[hsl(197,84%,88%)]">
             aplicaciones robustas
