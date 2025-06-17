@@ -14,10 +14,12 @@ const About = () => {
 
           {/* Content */}
           <div className="flex-1 md:text-left">
-            <Badge variant="secondary" className="mb-4">
+            <div className="flex flex-col items-center md:items-start">
+              <Badge variant="secondary" className="mb-4">
               Sobre mi
-            </Badge>
-            <ProfileImage className="mt-3 mb-8 block md:hidden" />
+              </Badge>
+              <ProfileImage className="mt-3 mb-8 block md:hidden" />
+            </div>
             <h2 className="text-4xl font-bold mb-4 tracking-tight">
               <span className="text-[hsl(197,84%,88%)]">Creatividad</span>, tecnología y <span className="text-[hsl(142,84%,88%)]">pasión</span> por aprender
             </h2>
