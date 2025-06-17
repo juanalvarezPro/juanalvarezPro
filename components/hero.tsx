@@ -34,9 +34,9 @@ const Hero = () => {
           >
             ¿Tu software te limita?
           </span>
-          ¡Yo te ayudo a{" "}
-          <span className="font-semibold text-primary">romper las barreras!</span>:
-          desarrollo{" "}
+          ¡Rompe las 
+          <span className="font-semibold text-primary">barreras tecnológicas!</span>
+          Desarrollo{" "}
           <span className="font-semibold text-[hsl(197,84%,88%)]">
             aplicaciones robustas
           </span>
@@ -47,9 +47,9 @@ const Hero = () => {
           y conecto el <span className="font-semibold">mundo físico</span> con
           el <span className="font-semibold">digital</span> para que tu empresa{" "}
           <span className="font-bold">crezca sin límites</span>
-          . ¡Hablemos de cómo puedo{" "}
+          . ¿Hablamos de cómo puedo ayudarte a {" "}
           <span className="font-semibold text-[hsl(264,84%,88%)]">
-            resolver tus desafíos tecnológicos
+            resolver tus desafíos?
           </span>
           !
         </p>
