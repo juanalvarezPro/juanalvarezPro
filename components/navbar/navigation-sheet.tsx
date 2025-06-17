@@ -10,6 +10,7 @@ export const NavigationSheet = () => {
       <SheetTrigger asChild>
         <Button variant="outline" size="icon" className="rounded-full">
           <Menu />
+          <span className="sr-only">Open navigation menu</span>
         </Button>
       </SheetTrigger>
       <SheetContent className="pt-3 px-6">
