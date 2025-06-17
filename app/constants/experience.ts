@@ -4,10 +4,11 @@ export const experiences = [
         company: "FactuFly",
         period: "2023 - Presente",
         description:
-            "Desarrollé y lancé FactuFly, una plataforma propia de facturación. Lideré todas las fases del producto, desde la concepción hasta la implementación y soporte.",
+            "Desarrollé y lancé FactuFly, una plataforma SAAS propia de facturación. Lideré todas las fases del producto, desde la concepción hasta la implementación y soporte.",
         technologies: [
             "React",
             "TypeScript",
+            "Tailwind",
             "Laravel",
             "Node.js",
             "Cloudflare",
@@ -26,9 +27,10 @@ export const experiences = [
             "TypeScript",
             "Node.js",
             "Express.js",
-            "AWS",
+            "Laravel",
+            "MySQL",
+            "PostgreSQL",
             "MongoDB",
-            "GraphQL",
             "Tailwind CSS"
         ],
     },
