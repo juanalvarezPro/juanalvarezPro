@@ -19,21 +19,44 @@ const Hero = () => {
       <div className="relative z-[1] text-center max-w-screen-md">
         <Badge className="rounded-full border-none">
           <Zap className="fill-current" />
-          Fullstack Web Developer
+          Desarrollador Full Stack & Maker Creativo
         </Badge>
         <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
-          Building Scalable & Engaging Web Experiences
+          <span className="text-[hsl(197,84%,88%)]">Impulsa tu Negocio</span>{" "}
+          con <span className="text-primary">Soluciones Digitales</span> y{" "}
+          <span className=" text-[hsl(142,84%,88%)]">Tecnología Embebida</span>{" "}
+          a la medida
         </h1>
-        <p className="mt-6 text-[17px] md:text-lg">
-          Hey there! I&apos;m a John Doe, a Full Stack Developer who loves
-          building cool and scalable web experiences. From crafting beautiful
-          frontends to powering robust backends, I bring ideas to life with
-          clean code and great design. Let&apos;s create something amazing
-          together! 🚀
+        <p className="mt-6 text-[17px] md:text-lg text-justify">
+          <span
+            className="block mb-4 text-2xl italic text-primary font-light text-center"
+            style={{ fontFamily: "'Caveat', cursive" }}
+          >
+            ¿Tu software te limita?
+          </span>
+          ¡Yo te ayudo a{" "}
+          <span className="font-semibold text-primary">romper las barreras!</span>:
+          desarrollo{" "}
+          <span className="font-semibold text-[hsl(197,84%,88%)]">
+            aplicaciones robustas
+          </span>
+          ,{" "}
+          <span className="font-semibold text-[hsl(142,84%,88%)]">
+            automatizo procesos
+          </span>{" "}
+          y conecto el <span className="font-semibold">mundo físico</span> con
+          el <span className="font-semibold">digital</span> para que tu empresa{" "}
+          <span className="font-bold">crezca sin límites</span>
+          . ¡Hablemos de cómo puedo{" "}
+          <span className="font-semibold text-[hsl(264,84%,88%)]">
+            resolver tus desafíos tecnológicos
+          </span>
+          !
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
-          <Button size="lg" className="rounded-full text-base">
-            See What I Do <CircleArrowDown className="ml-2 !h-5.5 !w-5.5" />
+          <Button size="lg" className="rounded-full text-base" variant={"outline"}>
+            Descubre mi trabajo{" "}
+            <CircleArrowDown className="ml-2 !h-5.5 !w-5.5" />
           </Button>
         </div>
       </div>

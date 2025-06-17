@@ -19,7 +19,7 @@ export const Logo = () => (
         Juan Alvarez
       </span>
       <span
-        className="text-muted-foreground relative after:content-[''] after:block after:h-[2px] after:bg-muted-foreground after:opacity-30 after:rounded-full after:w-full after:absolute after:left-0 after:bottom-0"
+        className=" text-[hsl(197,84%,88%)] relative after:content-[''] after:block after:h-[2px] after:bg-[hsl(197,84%,88%)] after:opacity-30 after:rounded-full after:w-full after:absolute after:left-0 after:bottom-0"
         itemProp="dominio pro"
       >
         Pro
