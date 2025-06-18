@@ -2,6 +2,7 @@ import { Logo } from "./logo";
 import { NavMenu } from "./nav-menu";
 import { NavigationSheet } from "./navigation-sheet";
 import ButtonGithub from "../Buttons/ButtonGithub";
+import ButtonDownloadCV from "../Buttons/ButtonDownloadCV";
 
 const Navbar = () => {
   return (
@@ -13,7 +14,8 @@ const Navbar = () => {
         <NavMenu className="hidden md:block" />
 
         <div className="flex items-center gap-2">
-          <ButtonGithub />
+          <ButtonGithub displayName={true}/>
+          <ButtonDownloadCV/>
           {/* Mobile Menu */}
           <div className="md:hidden">
             <NavigationSheet />
