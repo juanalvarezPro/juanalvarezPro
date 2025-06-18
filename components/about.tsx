@@ -1,10 +1,9 @@
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Download } from "lucide-react";
 import Image from "next/image";
 import { HTMLAttributes } from "react";
-import { GithubLogo } from "./icons";
+import ButtonDownloadCV from "./Buttons/ButtonDownloadCV";
+import ButtonGithub from "./Buttons/ButtonGithub";
 const About = () => {
   return (
     <section id="about" className="relative py-20 px-6">
@@ -27,14 +26,8 @@ const About = () => {
               ¡Hola! Soy Milo, tengo {new Date().getFullYear() - 2000} años. Soy desarrollador full-stack, apasionado por la robótica y la música. Me motiva crear soluciones innovadoras, compartir conocimientos y conectar con personas. Orgullosamente pentecostal 🔥
             </p>
             <div className="flex flex-wrap gap-4 justify-start">
-              <Button className="rounded-full">
-                <GithubLogo />
-                Ver Github
-              </Button>
-              <Button variant="outline" className="rounded-full">
-                <Download />
-                Descargar CV
-              </Button>
+               <ButtonGithub/>
+               <ButtonDownloadCV ignoreMobileDetection={true}/>
             </div>
           </div>
         </div>
