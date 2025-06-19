@@ -3,8 +3,8 @@ import React, { useEffect } from "react";
 import { Button } from "../ui/button";
 import { Download } from "lucide-react";
 
-const MOBILE_PDF_URL = "/cv-mobile.pdf";
-const DESKTOP_PDF_URL = "/CV.pdf";
+const MOBILE_PDF_URL = "/cv-mobile-es.pdf";
+const DESKTOP_PDF_URL = "/CV-es.pdf";
 
 function isMobile() {
     if (typeof window === "undefined") return false;
@@ -36,7 +36,7 @@ const ButtonDownloadCV = ({
         const url = mobile ? MOBILE_PDF_URL : DESKTOP_PDF_URL;
         const link = document.createElement("a");
         link.href = url;
-        link.download = url.split("/").pop() || "CV.pdf";
+        link.download = url.split("/").pop() || "CV-es.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
