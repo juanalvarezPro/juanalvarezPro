@@ -15,7 +15,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2">
           <ButtonGithub displayName={true}/>
-          <ButtonDownloadCV/>
+          <ButtonDownloadCV displayName={true}/>
           {/* Mobile Menu */}
           <div className="md:hidden">
             <NavigationSheet />

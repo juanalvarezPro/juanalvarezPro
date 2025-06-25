@@ -27,7 +27,7 @@ const About = () => {
             </p>
             <div className="flex flex-wrap gap-4 justify-start">
                <ButtonGithub/>
-               <ButtonDownloadCV ignoreMobileDetection={true}/>
+               <ButtonDownloadCV displayName={false}/>
             </div>
           </div>
         </div>
