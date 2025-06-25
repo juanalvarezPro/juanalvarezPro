@@ -3,7 +3,7 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-} from "@/components/ui/navigation-menu";
+} from "@/src/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import { NavigationMenuProps } from "@radix-ui/react-navigation-menu";
 import Link from "next/link";

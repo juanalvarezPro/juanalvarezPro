@@ -1,9 +1,9 @@
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Badge } from "@/src/components/ui/badge";
+import { Button } from "@/src/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 import { GithubLogo } from "./icons";
-import { projects } from "@/app/constants/projects";
+import { projects } from "@/src/app/constants/projects";
 
 interface ProjectCardProps {
   title: string;

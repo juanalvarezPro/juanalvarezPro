@@ -1,4 +1,4 @@
-import { Separator } from "@/components/ui/separator";
+import { Separator } from "@/src/components/ui/separator";
 import Link from "next/link";
 import {GithubLogo} from "./icons";
 

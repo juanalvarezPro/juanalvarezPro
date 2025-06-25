@@ -1,5 +1,5 @@
-import { experiences } from "@/app/constants/experience";
-import { Badge } from "@/components/ui/badge";
+import { experiences } from "@/src/app/constants/experience";
+import { Badge } from "@/src/components/ui/badge";
 import { Building2, Calendar } from "lucide-react";
 
 interface ExperienceItemProps {

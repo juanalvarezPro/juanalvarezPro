@@ -1,6 +1,6 @@
-import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import AnimatedGridPattern from "./ui/animated-grid-pattern";
+import { Badge } from "./ui/badge";
+import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
 import { CircleArrowDown, Zap } from "lucide-react";
 
