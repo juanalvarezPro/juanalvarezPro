@@ -127,3 +127,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+.mask_image {
+  mask-image: linear-gradient(
+    black 95%, transparent
+  );
+}
