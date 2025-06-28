@@ -10,7 +10,7 @@ export const geistSans = Geist({
 export const neueMachina = localFont({
   src: [
     {
-      path: "../public/fonts/myFont.woff2", 
+      path: "./fonts/myFont.woff2",
       weight: "400",
     },
   ],
