@@ -5,12 +5,12 @@ export const Logo = () => (
     className="flex items-center space-x-2 font-bold text-basic transition-transform duration-200 hover:scale-105 hover:shadow-lg cursor-pointer"
     aria-label="Juan Alvarez Pro Logo"
   >
-    <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 shadow">
+    <div className=" rounded-full overflow-hidden flex-shrink-0 shadow">
       <Image
-        src="/juanalvarez_avatar.webp"
-        alt="Juan Alvarez Avatar"
-        width={40}
-        height={40}
+        src="/logo.webp"
+        alt="logo juanalvarez.pro"
+        width={30}
+        height={30}
         priority
       />
     </div>
@@ -19,7 +19,7 @@ export const Logo = () => (
         Juan Alvarez
       </span>
       <span
-        className=" text-[hsl(197,84%,88%)] relative after:content-[''] after:block after:h-[2px] after:bg-[hsl(197,84%,88%)] after:opacity-30 after:rounded-full after:w-full after:absolute after:left-0 after:bottom-0"
+        className=" text-[hsl(200,2%,63%)]"
         itemProp="dominio pro"
       >
         Pro
