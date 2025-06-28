@@ -7,7 +7,7 @@ export const Logo = () => (
   >
     <div className=" rounded-full overflow-hidden flex-shrink-0 shadow">
       <Image
-        src="/logo.webp"
+        src="/Logo.webp"
         alt="logo juanalvarez.pro"
         width={30}
         height={30}
