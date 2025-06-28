@@ -1,4 +1,4 @@
-import { Geist } from "next/font/google";
+import { geistSans } from "@/src/fonts";
 import "../globals.css";
 import Navbar from "@/src/components/navbar";
 import Footer from "@/src/components/footer";
@@ -6,10 +6,8 @@ import { siteMetadata } from "../constants/metadata.home";
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import { routing } from "@/src/i18n/routing";
+import ChatAgent from "@/src/components/Buttons/chatAgent";
 
-const geistSans = Geist({
-  subsets: ["latin"],
-});
 
 export const metadata = siteMetadata;
 
@@ -33,6 +31,7 @@ export default async function RootLayout({
           <Navbar />
           <main>{children}</main>
           <Footer />
+          {/* <ChatAgent/> */}
         </body>
       </NextIntlClientProvider>
     </html>
