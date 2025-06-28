@@ -6,7 +6,6 @@ import { siteMetadata } from "../constants/metadata.home";
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import { routing } from "@/src/i18n/routing";
-import ChatAgent from "@/src/components/Buttons/chatAgent";
 
 
 export const metadata = siteMetadata;
@@ -31,7 +30,6 @@ export default async function RootLayout({
           <Navbar />
           <main>{children}</main>
           <Footer />
-          {/* <ChatAgent/> */}
         </body>
       </NextIntlClientProvider>
     </html>
