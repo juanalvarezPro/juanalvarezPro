@@ -1,8 +1,11 @@
 import AnimatedGridPattern from "./ui/animated-grid-pattern";
-import { Badge } from "./ui/badge";
+
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
-import { CircleArrowDown, Zap } from "lucide-react";
+import { Mail } from "lucide-react";
+import SystemMessage from "./ui/SystemMessage";
+import HeroMeImage from "./ui/HeroMeImage";
+import { myContact } from "../app/constants/mycontact";
 
 const Hero = () => {
   return (
@@ -16,47 +19,30 @@ const Hero = () => {
           "inset-x-0 h-full skew-y-12"
         )}
       />
-      <div className="relative z-[1] text-center max-w-screen-md">
-        <Badge className="rounded-full border-none">
-          <Zap className="fill-current" />
-          Desarrollador Full Stack & Maker Creativo
-        </Badge>
-        <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
-          <span className="text-[hsl(197,84%,88%)]">Impulsa tu Negocio</span>{" "}
-          con <span className="text-primary">Soluciones Digitales</span> y{" "}
-          <span className=" text-[hsl(142,84%,88%)]">Tecnología Embebida</span>{" "}
-          a la medida
-        </h1>
-        <p className="mt-6 text-[17px] md:text-lg text-balance text-center">
-          <span
-            className="block mb-4 text-2xl text-primary italic font-light text-center"
-            style={{ fontFamily: 'Caveat' }}
-          >
-            ¿Tu software te limita?
-          </span>
-          ¡Rompe las 
-          <span className="font-semibold text-primary"> barreras tecnológicas! </span>
-          Desarrollo{" "}
-          <span className="font-semibold text-[hsl(197,84%,88%)]">
-            aplicaciones robustas
-          </span>
-          ,{" "}
-          <span className="font-semibold text-[hsl(142,84%,88%)]">
-            automatizo procesos
-          </span>{" "}
-          y conecto el <span className="font-semibold">mundo físico</span> con
-          el <span className="font-semibold">digital</span> para que tu empresa{" "}
-          <span className="font-bold">crezca sin límites</span>
-          . ¿Hablamos de cómo puedo ayudarte a {" "}
-          <span className="font-semibold text-[hsl(264,84%,88%)]">
-            resolver tus desafíos?
-          </span>
-        </p>
-        <div className="mt-12 flex items-center justify-center gap-4">
-          <Button size="lg" className="rounded-full text-base" variant={"outline"}>
-            Descubre mi trabajo{" "}
-            <CircleArrowDown className="ml-2 !h-5.5 !w-5.5" />
+      <div className="relative z-[1] w-[1200px]">
+        <div className=" flex justify-center items-center flex-col">
+          <div className="relative lg:absolute lg:top-0 lg:left-0 lg:m-10 hidden lg:block">
+            <SystemMessage message="Tu negocio sigue estancado con un sistema que parece del 2005..." />
+          </div>
+          <HeroMeImage />
+          <div className="relative m-5 lg:absolute  lg:top-0  lg:right-0 lg:m-10">
+            <SystemMessage message="¿Tu empresa está aprovechando todo el potencial que la tecnología puede ofrecerle?" />
+          </div>
+        </div>
+        <div className="w-full flex flex-col items-center gap-2">
+          <Button asChild size="default" className="text-xl" variant="outline">
+            <a href={`mailto:${myContact.emailProfessional}`}>
+              Contáctame <Mail className="ml-2 !h-5.5 !w-5.5" />
+            </a>
           </Button>
+          <a
+            href={`https://wa.me/${myContact.phoneNumber}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-muted-foreground hover:underline"
+          >
+            ¿Prefieres WhatsApp? Escríbeme directo
+          </a>
         </div>
       </div>
     </div>
